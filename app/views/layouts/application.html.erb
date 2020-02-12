@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Newdigs</title>
-    <%= csrf_meta_tags %>
+    <title>New Digs Solutions</title>
+        <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      
+      <a class="navbar-brand" href="#">
+        <div class="circle">
+  <br />
+  New Digs <br />Solutions
+  <br />
+
+</div></a>
+
+    
+    </nav>
+
     <%= yield %>
+
   </body>
 </html>
